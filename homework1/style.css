@@ -1,0 +1,81 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 98, 98);
+   width: 750px;
+   height: 750px;
+   margin: 0 auto;
+    
+
+}
+
+
+.outside{
+    width: 650px;
+    height: 650px;
+    background-color: rgb(226, 226, 226);
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+    
+} 
+
+.box{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3, .box4{
+    
+   margin-top: 50px;
+}
+
+.orange-circle{
+    background-color: orange;
+    width:175px;
+    height:175px;
+    border: 0.5px solid orange; 
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px rgb(192, 192, 192);
+}
+
+.grey-square{
+    background-color: rgb(100, 98, 98);
+    width:175px;
+    height:175px;
+    border: 0.5px solid rgb(100, 98, 98); 
+   
+    box-shadow: 0 0 3px 1px rgb(192, 192, 192);
+}
+
+.orange-square{
+    background-color: orange;
+    width:175px;
+    height:175px;
+    border: 0.5px solid orange; 
+   
+    box-shadow: 0 0 3px 1px rgb(192, 192, 192);
+}
+
+.grey-circle{
+    background-color: rgb(100, 98, 98);
+    width:175px;
+    height:175px;
+    border: 0.5px solid rgb(100, 98, 98); 
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px rgb(192, 192, 192);
+}
